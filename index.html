@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <title>Sudoku Notes feature</title>
+</head>
+<body>
+    <main class="flex flex-col items-center justify-around">
+        <!-- Sudoku Grid -->
+        <div class="grid-container flex flex-col">
+            <!-- Row 1 -->
+            <div id="r1" class="row flex">
+                <div id="c1" class="cell"></div>
+                <div id="c2" class="cell"></div>
+                <div id="c3" class="cell"></div>
+            </div>
+            <!-- Row 2 -->
+            <div id="r2" class="row flex">
+                <div id="c4" class="cell"></div>
+                <div id="c5" class="cell"></div>
+                <div id="c6" class="cell"></div>
+            </div>
+            <!-- Row 3 -->
+            <div id="r3" class="row flex">
+                <div id="c7" class="cell"></div>
+                <div id="c8" class="cell"></div>
+                <div id="c9" class="cell"></div>
+            </div>
+        </div>
+
+        <!-- Pencil mode toggle -->
+        <button id="pencil-toggle">Toggle pencil mode</button>
+
+        <!-- Numbers Panel -->
+        <div id="num-panel" class="flex flex-wrap">
+            <!-- Row 1 -->
+            <button type="button" id="1" class="num">1</button>
+            <button type="button" id="2" class="num">2</button>
+            <button type="button" id="3" class="num">3</button>
+            <button type="button" id="4" class="num">4</button>
+            <button type="button" id="5" class="num">5</button>
+            <!-- Row 2 -->
+            <button type="button" id="6" class="num">6</button>
+            <button type="button" id="7" class="num">7</button>
+            <button type="button" id="8" class="num">8</button>
+            <button type="button" id="9" class="num">9</button>
+            <button type="button" id="clear" class="num">X</button>
+        </div>
+    </main>
+</body>
+</html>
